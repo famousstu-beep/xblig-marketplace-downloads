@@ -1,0 +1,92 @@
+{
+  "games": [
+    {
+      "id": "end-of-days-infected-vs-mercs",
+      "title": "End Of Days Infected Vs Mercs",
+      "runtimeId": "end-of-days",
+      "contentPath": "Content/Xbox360Game1.exe",
+      "coverResource": "Games/EndOfDays",
+      "description": "16 Player Online \u00b7 Infected vs Mercs",
+      "developer": "Sick Kreations",
+      "multiplayerRoom": "end-of-days-public-v1",
+      "package": "",
+      "executable": "End Of Days.exe",
+      "sha256": "d6a61faf5468a7e7601d250c67f5d1ac8325b7696d1339d5cd85e248bb414f18",
+      "downloadBytes": 195564768,
+      "installedBytes": 267745550,
+      "contentKind": "game",
+      "downloadUrl": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/staging-2026-11-23/end-of-days-infected-vs-mercs.xbliggame",
+      "category": "Xbox Indie Games"
+    },
+    {
+      "id": "avatar-paintball",
+      "title": "Avatar Paintball",
+      "runtimeId": "avatar-paintball",
+      "contentPath": "584E07D1/AvatarPaintball.exe",
+      "coverResource": "Games/AvatarPaintball",
+      "description": "Avatar paintball with weapon unlocks, power-ups and portals.",
+      "developer": "TAS Games",
+      "multiplayerRoom": "avatar-paintball-public-v1",
+      "package": "",
+      "executable": "584E07D1/AvatarPaintball.exe",
+      "sha256": "9d5e72f584c4954d9d87432b57e8acef0efb4c5e5bcd336c05e7268d8b808b0d",
+      "downloadBytes": 36856781,
+      "installedBytes": 75411683,
+      "contentKind": "game",
+      "downloadUrl": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/staging-2026-11-23/avatar-paintball.xbliggame",
+      "category": "Xbox Indie Games"
+    },
+    {
+      "id": "one-vs-hundred",
+      "title": "1 vs 100",
+      "runtimeId": "one-vs-hundred",
+      "contentKind": "game",
+      "contentPath": "Title/default.xex",
+      "executable": "Title/default.xex",
+      "coverResource": "Games/OneVsHundred",
+      "developer": "Microsoft Game Studios",
+      "description": "Original 1 vs 100 with community quiz questions, your avatar and PUN online play. No real-world prizes.",
+      "multiplayerRoom": "community-en-v1",
+      "package": "",
+      "sha256": "6f2714f80455dab7107a87f72e2ef0ff5f5fb632662c643e321beb6090f1793b",
+      "downloadBytes": 287560653,
+      "installedBytes": 342755135,
+      "downloadUrl": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/staging-2026-11-23/one-vs-hundred.xbliggame",
+      "category": "Xbox 360 Arcade"
+    },
+    {
+      "id": "bully-scholarship-edition",
+      "title": "Bully: Scholarship Edition",
+      "runtimeId": "bully",
+      "contentKind": "game",
+      "contentPath": "Game/Default.xex",
+      "executable": "Game/Default.xex",
+      "coverResource": "Games/Bully",
+      "developer": "Rockstar Games",
+      "description": "Separate installation. Single-player Story, public/private online sessions and friend invites for up to four players. Campaign synchronization is in development.",
+      "multiplayerRoom": "community-v1",
+      "package": "",
+      "sha256": "67b061b1ae2ced3eab4b07015b4cb8a1d342535534a4b32e97ed81924fb3880a",
+      "downloadBytes": 3060718163,
+      "installedBytes": 3363996939,
+      "downloadParts": [
+        {
+          "url": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/staging-2026-11-23/bully-scholarship-edition.xbliggame.part01",
+          "bytes": 1500000000,
+          "sha256": "0a8800a25d79d347bf8d3239c0507fbcbc876e52de0010ab74d5c612e86d9c58"
+        },
+        {
+          "url": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/staging-2026-11-23/bully-scholarship-edition.xbliggame.part02",
+          "bytes": 1500000000,
+          "sha256": "10f30d5a05206fb28c7ac978269fb0030a76722daaffabd0d44eee832079fb3e"
+        },
+        {
+          "url": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/staging-2026-11-23/bully-scholarship-edition.xbliggame.part03",
+          "bytes": 60718163,
+          "sha256": "a4dc6cb2761152d68d7daffa2ca8686ab16dca3ff6385f50466f1a800d43b63d"
+        }
+      ],
+      "category": "Xbox 360 Full Games"
+    }
+  ]
+}
