@@ -1,22 +1,34 @@
 # XBLIG Marketplace downloads
 
+This repository keeps all game packages and the live catalogue together. The Marketplace client has its own [repository](https://github.com/famousstu-beep/xblig-marketplace-client).
+
 ## Download the Marketplace client
 
-The **r2 client is a Unity release build**. Development Build, script debugging and profiler connection are off, and there is no Development Build watermark.
+The **r3 client is a Unity release build**. Development Build, script debugging and profiler connection are off, and there is no Development Build watermark.
 
-**[Download Marketplace for Windows x64](https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/marketplace-client-2026-11-24/XBLIG-Marketplace-Windows-x64-20261124-r2.zip)**
+**[Download Marketplace for Windows x64](https://github.com/famousstu-beep/xblig-marketplace-client/releases/download/v2026.11.24-r3/XBLIG-Marketplace-Windows-x64-20261124-r3.zip)**
+
+The client includes Original Xbox, Xbox 360 Blades, NXE, Kinect and Metro dashboards, plus the Metro avatar editor. They launch directly from **Dashboards → Play** without a separate download. Original Xbox Live and some original Xbox 360 service screens remain unavailable.
 
 Extract the entire ZIP and run `Marketplace.exe`. You do not need the Unity Editor. Select a category, choose a game and press **Download**; once installed, press **Play**.
 
 The shared client downloads all five currently published games: **End Of Days Infected Vs Mercs**, **Avatar Paintball**, **1 vs 100**, **Bully: Scholarship Edition**, and **20 Games to Play With Your Mates**. Bully's three package parts are handled automatically; allow at least **9 GB free** for its download and installation.
 
-All five public packages passed a fresh download and installation check on 24 November 2026, including checksums, extraction and Bully’s split package. This verifies installation; gameplay limitations are listed below.
+The five-game catalogue passed a fresh download/install check earlier on 24 November 2026. The replacement Bully r3 package passed CRC and checksum validation plus a fresh install through the production installer. The r3 client built with no errors and Development Build disabled. These checks do not verify complete campaign gameplay.
 
-Windows x64 and the current [Microsoft Visual C++ x64 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist) are required. [Release notes, instructions and SHA-256 checksum](https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/tag/marketplace-client-2026-11-24). The game catalogue refreshes at startup, or use **Add Games → Refresh game catalogue**.
+Windows x64 and the current [Microsoft Visual C++ x64 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist) are required. [Client release notes, instructions and SHA-256 checksum](https://github.com/famousstu-beep/xblig-marketplace-client/releases/tag/v2026.11.24-r3). The game catalogue refreshes at startup, or use **Add Games → Refresh game catalogue**.
 
 Each title has its own Download button in the Unity Marketplace. The client downloads the selected package, checks its size and SHA-256 checksum, then installs it. Progress, pause, cancel, retry, and installed games are shown in My Downloads. Downloading a game does not open a GitHub page.
 
 Game features have separate limitations. Bully's full campaign synchronization and several online features are still in development. Publishing a package does not certify that every feature is complete.
+
+## Bully r3 paired update
+
+Update both the Marketplace client and Bully. Refresh the catalogue and download Bully again if the installed package is older. The client handles all three parts automatically; personal saves remain separate.
+
+Joined checkpoints now use shorter Windows paths to fix the missing-path error. Choose **JOIN WITH HOST CHECKPOINT**, or **JOIN WITHOUT CHECKPOINT** to use an isolated copy of your own progress without requesting the host save. Repeated mission-start failures return to Marketplace with recovery guidance. Different campaign progress can still prevent a successful join; full campaign synchronization remains incomplete.
+
+Release updates publish the client and affected game package together. Superseded downloads are removed after replacements are verified and the catalogue points to them.
 
 ## 20 Games to Play With Your Mates
 
@@ -56,3 +68,6 @@ python Add-MarketplaceGame.py my-game.xbliggame --metadata my-game.json --catalo
 Bully appears as one title even though its package has three assets. The installer downloads them in order, verifies every part, joins them, and verifies the complete package before installation. Do not rename or install individual `.part` files manually.
 
 Only publish packages you have permission to redistribute. Keep personal saves, login details, keys, and console profiles out of packages. This project does not provide Microsoft Xbox Live authentication.
+
+
+
