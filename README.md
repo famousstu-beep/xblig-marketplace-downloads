@@ -4,6 +4,16 @@ Each title has its own Download button in the Unity Marketplace. The client down
 
 These packages are development builds. Bully's full campaign synchronization and several online features are still in development. Publishing a package does not certify that every feature is complete.
 
+## 20 Games to Play With Your Mates
+
+[Download the updated Windows client and game](https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/tag/twenty-games-2026-11-24). Use the **r2 client ZIP**, extract the entire folder, run `Marketplace.exe`, and open **Xbox Indie Games**.
+
+This client adds the `twenty-games` runtime, the original menus and all 20 minigames, solo/local play, PUN online parties, and the Marketplace guide. Older clients need this client update before installing the separate `.xbliggame` package. The r2 client includes the graphics fixes for Astro Pods and Not My Brains!
+
+Host an online party and share its room code. Up to four people can join, each controlling their own character in the original shared-screen game. Individual minigame limits are unchanged; Sumo and Fruits allow two players. Press **Home**, or hold **Menu**, to open the guide and use **Return to game** to continue.
+
+All 20 minigames passed loading and simulation checks. Separate two-client and four-client Unity/PUN runs compared gameplay state across processes. These checks are not exhaustive playthroughs of every rule and outcome. Download checksums are included in the release.
+
 ## Catalogue sections
 
 - Xbox 360 Full Games
