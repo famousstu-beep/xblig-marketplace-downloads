@@ -6,7 +6,7 @@
       "runtimeId": "end-of-days",
       "contentPath": "Content/Xbox360Game1.exe",
       "coverResource": "Games/EndOfDays",
-      "description": "16 Player Online \u00b7 Infected vs Mercs",
+      "description": "16 Player Online · Infected vs Mercs",
       "developer": "Sick Kreations",
       "multiplayerRoom": "end-of-days-public-v1",
       "package": "",
@@ -87,6 +87,24 @@
         }
       ],
       "category": "Xbox 360 Full Games"
+    },
+    {
+      "id": "20-games-to-play-with-your-mates",
+      "title": "20 Games to Play With Your Mates",
+      "runtimeId": "twenty-games",
+      "contentPath": "584E07D1/TwentyGames.exe",
+      "executable": "584E07D1/TwentyGames.exe",
+      "coverResource": "Games/TwentyGames",
+      "description": "Twenty original minigames with solo, local multiplayer and PUN online parties for up to four players. Each minigame keeps its original player limits.",
+      "developer": "IndieSkies",
+      "category": "Xbox Indie Games",
+      "multiplayerRoom": "",
+      "package": "",
+      "sha256": "37baf692382b0f5af5fae85973828dc9120d1c048adc879f06a6c43bd762955e",
+      "downloadBytes": 38947005,
+      "installedBytes": 40479671,
+      "contentKind": "game",
+      "downloadUrl": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/twenty-games-2026-11-24/20-games-to-play-with-your-mates.xbliggame"
     }
   ]
 }
