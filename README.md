@@ -1,14 +1,26 @@
 # XBLIG Marketplace downloads
 
+## Download the Marketplace client
+
+**[Download Marketplace for Windows x64](https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/marketplace-client-2026-11-24/XBLIG-Marketplace-Windows-x64-20261124.zip)**
+
+Extract the entire ZIP and run `Marketplace.exe`. You do not need the Unity Editor. Select a category, choose a game and press **Download**; once installed, press **Play**.
+
+The shared client downloads all five currently published games: **End Of Days Infected Vs Mercs**, **Avatar Paintball**, **1 vs 100**, **Bully: Scholarship Edition**, and **20 Games to Play With Your Mates**. Bully's three package parts are handled automatically; allow at least **9 GB free** for its download and installation.
+
+All five public packages passed a fresh download and installation check on 24 November 2026, including checksums, extraction and Bully’s split package. This verifies installation; gameplay limitations are listed below.
+
+Windows x64 and the current [Microsoft Visual C++ x64 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist) are required. [Release notes, instructions and SHA-256 checksum](https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/tag/marketplace-client-2026-11-24). The game catalogue refreshes at startup, or use **Add Games → Refresh game catalogue**.
+
 Each title has its own Download button in the Unity Marketplace. The client downloads the selected package, checks its size and SHA-256 checksum, then installs it. Progress, pause, cancel, retry, and installed games are shown in My Downloads. Downloading a game does not open a GitHub page.
 
 These packages are development builds. Bully's full campaign synchronization and several online features are still in development. Publishing a package does not certify that every feature is complete.
 
 ## 20 Games to Play With Your Mates
 
-[Download the updated Windows client and game](https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/tag/twenty-games-2026-11-24). Use the **r2 client ZIP**, extract the entire folder, run `Marketplace.exe`, and open **Xbox Indie Games**.
+Use the Marketplace client above and open **Xbox Indie Games → 20 Games to Play With Your Mates → Download**. [Game package and original release notes](https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/tag/twenty-games-2026-11-24).
 
-This client adds the `twenty-games` runtime, the original menus and all 20 minigames, solo/local play, PUN online parties, and the Marketplace guide. Older clients need this client update before installing the separate `.xbliggame` package. The r2 client includes the graphics fixes for Astro Pods and Not My Brains!
+This client adds the `twenty-games` runtime, the original menus and all 20 minigames, solo/local play, PUN online parties, and the Marketplace guide. Older clients need this client update before installing the separate `.xbliggame` package. The shared client includes the graphics fixes for Astro Pods and Not My Brains!
 
 Host an online party and share its room code. Up to four people can join, each controlling their own character in the original shared-screen game. Individual minigame limits are unchanged; Sumo and Fruits allow two players. Press **Home**, or hold **Menu**, to open the guide and use **Return to game** to continue.
 
