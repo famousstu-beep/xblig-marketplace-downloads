@@ -66,24 +66,24 @@
       "description": "Separate installation. Single-player Story, public/private online sessions and friend invites for up to four players. Campaign synchronization is in development.",
       "multiplayerRoom": "community-v1",
       "package": "",
-      "sha256": "67b061b1ae2ced3eab4b07015b4cb8a1d342535534a4b32e97ed81924fb3880a",
-      "downloadBytes": 3060718163,
-      "installedBytes": 3363996939,
+      "sha256": "bc8fcf926aeaf35c9e7ec62d1b1328fda0f30be6a8951674a988cdf227c0c030",
+      "downloadBytes": 3060718594,
+      "installedBytes": 3363998987,
       "downloadParts": [
         {
-          "url": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/staging-2026-11-23/bully-scholarship-edition.xbliggame.part01",
+          "url": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/marketplace-client-2026-11-24/bully-scholarship-edition-r3.xbliggame.part01",
           "bytes": 1500000000,
           "sha256": "0a8800a25d79d347bf8d3239c0507fbcbc876e52de0010ab74d5c612e86d9c58"
         },
         {
-          "url": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/staging-2026-11-23/bully-scholarship-edition.xbliggame.part02",
+          "url": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/marketplace-client-2026-11-24/bully-scholarship-edition-r3.xbliggame.part02",
           "bytes": 1500000000,
-          "sha256": "10f30d5a05206fb28c7ac978269fb0030a76722daaffabd0d44eee832079fb3e"
+          "sha256": "68ab9bcf69f28e2c98220e86f6787a91be714bd6ae9f6f45624146289d5d67a9"
         },
         {
-          "url": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/staging-2026-11-23/bully-scholarship-edition.xbliggame.part03",
-          "bytes": 60718163,
-          "sha256": "a4dc6cb2761152d68d7daffa2ca8686ab16dca3ff6385f50466f1a800d43b63d"
+          "url": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/marketplace-client-2026-11-24/bully-scholarship-edition-r3.xbliggame.part03",
+          "bytes": 60718594,
+          "sha256": "c5cbef8522f8016aad6c6f44bce8541b2bd04d8ed1c23527d886a5dfb8e5cbb8"
         }
       ],
       "category": "Xbox 360 Full Games"
@@ -108,3 +108,4 @@
     }
   ]
 }
+
