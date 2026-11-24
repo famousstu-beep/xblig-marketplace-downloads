@@ -2,7 +2,9 @@
 
 ## Download the Marketplace client
 
-**[Download Marketplace for Windows x64](https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/marketplace-client-2026-11-24/XBLIG-Marketplace-Windows-x64-20261124.zip)**
+The **r2 client is a Unity release build**. Development Build, script debugging and profiler connection are off, and there is no Development Build watermark.
+
+**[Download Marketplace for Windows x64](https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/marketplace-client-2026-11-24/XBLIG-Marketplace-Windows-x64-20261124-r2.zip)**
 
 Extract the entire ZIP and run `Marketplace.exe`. You do not need the Unity Editor. Select a category, choose a game and press **Download**; once installed, press **Play**.
 
@@ -14,7 +16,7 @@ Windows x64 and the current [Microsoft Visual C++ x64 Redistributable](https://l
 
 Each title has its own Download button in the Unity Marketplace. The client downloads the selected package, checks its size and SHA-256 checksum, then installs it. Progress, pause, cancel, retry, and installed games are shown in My Downloads. Downloading a game does not open a GitHub page.
 
-These packages are development builds. Bully's full campaign synchronization and several online features are still in development. Publishing a package does not certify that every feature is complete.
+Game features have separate limitations. Bully's full campaign synchronization and several online features are still in development. Publishing a package does not certify that every feature is complete.
 
 ## 20 Games to Play With Your Mates
 
