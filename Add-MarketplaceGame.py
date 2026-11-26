@@ -14,7 +14,7 @@ g=json.loads(a.metadata.read_text(encoding='utf-8-sig'))
 required=('id','title','category','runtimeId','executable','contentPath','contentKind')
 if any(not g.get(k) for k in required):p.error('Missing metadata: '+', '.join(k for k in required if not g.get(k)))
 if not re.fullmatch('[a-z0-9-]{1,100}',g['id']):p.error('Use a lowercase ID containing letters, numbers and hyphens.')
-categories=['Xbox 360 Full Games','Xbox Indie Games','Xbox 360 Arcade','Original Xbox Games','Xbox 360 Demos','Xbox 360 Apps']
+categories=['Xbox Series X|S','Xbox One','Xbox 360 Full Games','Xbox Indie Games','Xbox 360 Arcade','Original Xbox Games','Xbox 360 Demos','Xbox 360 Apps']
 if g['category'] not in categories or g['contentKind'] not in ('game','demo','application'):p.error('Choose a supported category and content kind.')
 base=urlparse(a.release_url)
 if base.scheme!='https' or base.netloc!='github.com' or '/releases/download/' not in base.path or base.query or base.fragment:p.error('Use an HTTPS GitHub release download directory.')
@@ -55,7 +55,8 @@ else:
                     dst.write(chunk);digest.update(chunk);remaining-=len(chunk)
             g['downloadParts'].append({'url':base+quote(dest.name),'bytes':size,'sha256':digest.hexdigest()})
             left-=size;index+=1
-catalogue=json.loads(a.catalogue.read_text()) if a.catalogue.exists() else {'games':[]}
+catalogue=json.loads(a.catalogue.read_text(encoding='utf-8-sig')) if a.catalogue.exists() else {'games':[]}
 catalogue['games']=[old for old in catalogue['games'] if old['id']!=g['id']]+[g]
-temp=a.catalogue.with_suffix('.json.new');temp.write_text(json.dumps(catalogue,indent=2)+'\n');temp.replace(a.catalogue)
+if 'upcoming' in catalogue:catalogue['upcoming']=[old for old in catalogue['upcoming'] if old['id']!=g['id']]
+temp=a.catalogue.with_suffix('.json.new');temp.write_text(json.dumps(catalogue,indent=2)+'\n',encoding='utf-8');temp.replace(a.catalogue)
 print('Prepared '+g['title']+'. Upload the assets, then publish the updated catalogue.json. The matching runtime must already be supported by the Unity client.')
