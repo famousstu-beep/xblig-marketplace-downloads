@@ -106,6 +106,17 @@
       "contentKind": "game",
       "downloadUrl": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/twenty-games-2026-11-24/20-games-to-play-with-your-mates.xbliggame"
     }
+  ],
+  "upcoming": [
+    {
+      "id": "grand-theft-auto-vi",
+      "title": "GTA 6",
+      "contentKind": "game",
+      "category": "Xbox Series X|S",
+      "comingSoon": true,
+      "coverResource": "Games/Gta6",
+      "developer": "Rockstar Games",
+      "description": "Grand Theft Auto VI · Coming soon."
+    }
   ]
 }
-

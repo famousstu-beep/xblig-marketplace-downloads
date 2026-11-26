@@ -24,7 +24,7 @@ Game features have separate limitations. Bully's full campaign synchronization a
 
 ## Client and game updates
 
-Install client **2026.11.26.1** manually once to enable automatic client downloads and **Restart to update**. When a published game package changes, it appears as **Update** in Downloads. Select Update to replace the game files while keeping your saves. Client updates and game packages remain in their existing separate repositories. The current Bully package is still r3; the automatic-updater release does not claim complete campaign co-op.
+Install the **latest client** manually once if you are using a build older than **2026.11.26.1**, to enable automatic client downloads and **Restart to update**. When a published game package changes, it appears as **Update** in Downloads. Select Update to replace the game files while keeping your saves. Client updates and game packages remain in their existing separate repositories. The current Bully package is still r3; the automatic-updater release does not claim complete campaign co-op.
 
 ## Bully r3 paired update
 
@@ -46,6 +46,8 @@ All 20 minigames passed loading and simulation checks. Separate two-client and f
 
 ## Catalogue sections
 
+- Xbox Series X|S
+- Xbox One
 - Xbox 360 Full Games
 - Xbox Indie Games
 - Xbox 360 Arcade
@@ -72,3 +74,10 @@ python Add-MarketplaceGame.py my-game.xbliggame --metadata my-game.json --catalo
 Bully appears as one title even though its package has three assets. The installer downloads them in order, verifies every part, joins them, and verifies the complete package before installation. Do not rename or install individual `.part` files manually.
 
 Only publish packages you have permission to redistribute. Keep personal saves, login details, keys, and console profiles out of packages. This project does not provide Microsoft Xbox Live authentication.
+
+## Xbox One, Xbox Series X|S and coming-soon listings
+
+Client **2026.11.26.2** adds Xbox One and Xbox Series X|S catalogue categories. GTA 6 appears under Xbox Series X|S with the supplied cover and **Coming soon** visible throughout its short cover animation. This is a catalogue preview; it does not download or install GTA 6 or add Xbox One/Series game execution. Existing game packages are unchanged.
+
+Coming-soon entries use a separate `upcoming` catalogue array so older clients can continue reading the five published game downloads. Upgrade the client to see the new categories and preview. The original Xbox One dashboard is not implemented or included; any future working version will be a separate download.
+
