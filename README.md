@@ -4,9 +4,9 @@ This repository keeps all game packages and the live catalogue together. The Mar
 
 ## Download the Marketplace client
 
-The **r3 client is a Unity release build**. Development Build, script debugging and profiler connection are off, and there is no Development Build watermark.
+The **current client is a Unity release build**. Development Build, script debugging and profiler connection are off, and there is no Development Build watermark.
 
-**[Download Marketplace for Windows x64](https://github.com/famousstu-beep/xblig-marketplace-client/releases/download/v2026.11.24-r3/XBLIG-Marketplace-Windows-x64-20261124-r3.zip)**
+**[Download Marketplace for Windows x64](https://github.com/famousstu-beep/xblig-marketplace-client/releases/latest)**
 
 The client includes Original Xbox, Xbox 360 Blades, NXE, Kinect and Metro dashboards, plus the Metro avatar editor. They launch directly from **Dashboards → Play** without a separate download. Original Xbox Live and some original Xbox 360 service screens remain unavailable.
 
@@ -16,11 +16,15 @@ The shared client downloads all five currently published games: **End Of Days In
 
 The five-game catalogue passed a fresh download/install check earlier on 24 November 2026. The replacement Bully r3 package passed CRC and checksum validation plus a fresh install through the production installer. The r3 client built with no errors and Development Build disabled. These checks do not verify complete campaign gameplay.
 
-Windows x64 and the current [Microsoft Visual C++ x64 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist) are required. [Client release notes, instructions and SHA-256 checksum](https://github.com/famousstu-beep/xblig-marketplace-client/releases/tag/v2026.11.24-r3). The game catalogue refreshes at startup, or use **Add Games → Refresh game catalogue**.
+Windows x64 and the current [Microsoft Visual C++ x64 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist) are required. [Client release notes, instructions and SHA-256 checksum](https://github.com/famousstu-beep/xblig-marketplace-client/releases/latest). The game catalogue refreshes at startup, or use **Add Games → Refresh game catalogue**.
 
 Each title has its own Download button in the Unity Marketplace. The client downloads the selected package, checks its size and SHA-256 checksum, then installs it. Progress, pause, cancel, retry, and installed games are shown in My Downloads. Downloading a game does not open a GitHub page.
 
 Game features have separate limitations. Bully's full campaign synchronization and several online features are still in development. Publishing a package does not certify that every feature is complete.
+
+## Client and game updates
+
+Install client **2026.11.26.1** manually once to enable automatic client downloads and **Restart to update**. When a published game package changes, it appears as **Update** in Downloads. Select Update to replace the game files while keeping your saves. Client updates and game packages remain in their existing separate repositories. The current Bully package is still r3; the automatic-updater release does not claim complete campaign co-op.
 
 ## Bully r3 paired update
 
@@ -68,6 +72,3 @@ python Add-MarketplaceGame.py my-game.xbliggame --metadata my-game.json --catalo
 Bully appears as one title even though its package has three assets. The installer downloads them in order, verifies every part, joins them, and verifies the complete package before installation. Do not rename or install individual `.part` files manually.
 
 Only publish packages you have permission to redistribute. Keep personal saves, login details, keys, and console profiles out of packages. This project does not provide Microsoft Xbox Live authentication.
-
-
-
