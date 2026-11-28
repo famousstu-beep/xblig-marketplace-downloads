@@ -63,30 +63,31 @@
       "executable": "Game/Default.xex",
       "coverResource": "Games/Bully",
       "developer": "Rockstar Games",
-      "description": "Separate installation. Single-player Story, public/private online sessions and friend invites for up to four players. Campaign synchronization is in development.",
+      "description": "Original Story plus experimental four-player online campaign sessions. Campaign vehicle controls add road-car stealing, a police motorbike, mower, bulldozer and go-kart. Nearby recruited NPC companions can ride in supported cars. Online passengers and full campaign synchronization remain unfinished.",
       "multiplayerRoom": "community-v1",
       "package": "",
-      "sha256": "bc8fcf926aeaf35c9e7ec62d1b1328fda0f30be6a8951674a988cdf227c0c030",
-      "downloadBytes": 3060718594,
-      "installedBytes": 3363998987,
+      "sha256": "29604ce6f7e3872b41b4312de817b2d2d0b76c9b0bf72a06ce7ef87ac05905ef",
+      "downloadBytes": 3060449194,
+      "installedBytes": 3363029991,
+      "category": "Xbox 360 Full Games",
       "downloadParts": [
         {
-          "url": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/marketplace-client-2026-11-24/bully-scholarship-edition-r3.xbliggame.part01",
+          "url": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/v2026.11.28.1/bully-scholarship-edition-20261128.xbliggame.part01",
           "bytes": 1500000000,
-          "sha256": "0a8800a25d79d347bf8d3239c0507fbcbc876e52de0010ab74d5c612e86d9c58"
+          "sha256": "6cb7416c77107f6b43846ba6e38940e59cbd469f0c09b7511c1379115b85279a"
         },
         {
-          "url": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/marketplace-client-2026-11-24/bully-scholarship-edition-r3.xbliggame.part02",
+          "url": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/v2026.11.28.1/bully-scholarship-edition-20261128.xbliggame.part02",
           "bytes": 1500000000,
-          "sha256": "68ab9bcf69f28e2c98220e86f6787a91be714bd6ae9f6f45624146289d5d67a9"
+          "sha256": "2cfe1760f59b8a6d155ae6d346ec5081d1487e8725f549d50efdf7c72b5f47d7"
         },
         {
-          "url": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/marketplace-client-2026-11-24/bully-scholarship-edition-r3.xbliggame.part03",
-          "bytes": 60718594,
-          "sha256": "c5cbef8522f8016aad6c6f44bce8541b2bd04d8ed1c23527d886a5dfb8e5cbb8"
+          "url": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/v2026.11.28.1/bully-scholarship-edition-20261128.xbliggame.part03",
+          "bytes": 60449194,
+          "sha256": "88de9b1a53c09ccf78617bac4a7577491daabeb43d8f4c70cee5015817457d4d"
         }
       ],
-      "category": "Xbox 360 Full Games"
+      "minimumClientVersion": "2026.11.28.1"
     },
     {
       "id": "20-games-to-play-with-your-mates",
@@ -117,6 +118,38 @@
       "coverResource": "Games/Gta6",
       "developer": "Rockstar Games",
       "description": "Grand Theft Auto VI · Coming soon."
+    }
+  ],
+  "addons": [
+    {
+      "id": "bully-verity",
+      "title": "Bully: Verity Companion",
+      "parentGameId": "bully-scholarship-edition",
+      "runtimeId": "bully-addon",
+      "contentKind": "addon",
+      "category": "Game Add-ons",
+      "executable": "addon.json",
+      "contentPath": "Payload/Game/Verity/addon.json",
+      "coverResource": "Games/BullyVerity",
+      "developer": "Community add-on",
+      "package": "",
+      "minimumClientVersion": "2026.11.28.1",
+      "description": "Optional experimental Bully add-on. Requires the current Bully package. In Story co-op campaign mode, open Verity’s box in Jimmy’s dorm with Y. Hold V to talk and release for an offline spoken reply, or configure your own online provider in Settings. Includes the original voice and box sounds, solid collision and a talking mouth. Following, pickup/throwing, shared online Verity state and complete Minecraft behaviour are not yet supported.",
+      "sha256": "1e40871fac76a9572d3aa5aa5e99fede9d726be3cb71a6a9cb883eb79c9a9e91",
+      "downloadBytes": 1670297901,
+      "installedBytes": 2676719707,
+      "downloadParts": [
+        {
+          "url": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/v2026.11.28.1/bully-verity-20261128.xbliggame.part01",
+          "bytes": 1500000000,
+          "sha256": "2b8f9022838677e2868e2e810bde2d7f353a9e42ebc5fec85bae62bc665a9540"
+        },
+        {
+          "url": "https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/v2026.11.28.1/bully-verity-20261128.xbliggame.part02",
+          "bytes": 170297901,
+          "sha256": "81149825242fa4564cf274594a856007806369a41f43644fc67d91dcfd635500"
+        }
+      ]
     }
   ]
 }

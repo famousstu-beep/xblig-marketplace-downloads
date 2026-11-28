@@ -2,6 +2,16 @@
 
 This repository keeps all game packages and the live catalogue together. The Marketplace client has its own [repository](https://github.com/famousstu-beep/xblig-marketplace-client).
 
+## Bully vehicles and optional Verity DLC — 2026.11.28.1
+
+Update the client, then update Bully in Downloads. **Car driving and stealing are included in Bully; Verity is optional.** The campaign vehicle controls cover supported road cars, the police motorbike, mower, bulldozer and go-kart. One recruited NPC companion was verified as a passenger. Online player passengers and full campaign synchronization remain unfinished.
+
+Find **Bully: Verity Companion** in **Game Add-ons** after installing the current Bully package. The separate DLC includes the dorm box, solid companion, talking mouth, original sounds and voice, offline AI and push-to-talk recognition. Following, pickup/throwing, shared multiplayer Verity and complete Minecraft behavior are not available yet. Removing the DLC keeps Bully and personal saves.
+
+[Game and DLC release, controls and limitations](https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/tag/v2026.11.28.1) · [Required client](https://github.com/famousstu-beep/xblig-marketplace-client/releases/tag/v2026.11.28.1)
+
+Both game archives passed fresh installation through the production installer. The matching release client built with zero errors and passed extraction and identity verification through its updater.
+
 ## Download the Marketplace client
 
 The **current client is a Unity release build**. Development Build, script debugging and profiler connection are off, and there is no Development Build watermark.
@@ -22,11 +32,13 @@ Each title has its own Download button in the Unity Marketplace. The client down
 
 Game features have separate limitations. Bully's full campaign synchronization and several online features are still in development. Publishing a package does not certify that every feature is complete.
 
+![Bully: Verity Companion cover](https://github.com/famousstu-beep/xblig-marketplace-downloads/releases/download/v2026.11.28.1/Bully-Verity-cover.png)
+
 ## Client and game updates
 
-Install the **latest client** manually once if you are using a build older than **2026.11.26.1**, to enable automatic client downloads and **Restart to update**. When a published game package changes, it appears as **Update** in Downloads. Select Update to replace the game files while keeping your saves. Client updates and game packages remain in their existing separate repositories. The current Bully package is still r3; the automatic-updater release does not claim complete campaign co-op.
+Install the **latest client** manually once if you are using a build older than **2026.11.26.1**, to enable automatic client downloads and **Restart to update**. When a published game package changes, it appears as **Update** in Downloads. Select Update to replace the game files while keeping your saves. Client updates and game packages remain in their existing separate repositories. The current Bully package is 2026.11.28.1; full campaign co-op is still in development.
 
-## Bully r3 paired update
+## Bully checkpoint support (retained from r3)
 
 Update both the Marketplace client and Bully. Refresh the catalogue and download Bully again if the installed package is older. The client handles all three parts automatically; personal saves remain separate.
 
@@ -54,6 +66,7 @@ All 20 minigames passed loading and simulation checks. Separate two-client and f
 - Original Xbox Games
 - Xbox 360 Demos
 - Xbox 360 Apps
+- Game Add-ons
 
 The original Xbox, Blades, NXE, Kinect, and Metro dashboard entries remain in the Unity client's local dashboard catalogue. Dashboard firmware and account saves are not included in these game downloads.
 
